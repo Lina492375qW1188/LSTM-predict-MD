@@ -12,3 +12,8 @@ This file contains all settings, data preprocessing, loss function, and the mode
 `python3 LSTM_4s.py`
 
 in the terminal. The program will save a file with prediction and corresponding training checkpoints of last few epochs.
+
+# lossT.py
+
+This program uses this file as input loss function.
+
