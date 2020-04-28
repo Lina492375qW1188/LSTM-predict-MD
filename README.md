@@ -17,14 +17,11 @@ in the terminal. The program will save a file with prediction and corresponding 
 
 This program uses this file as input loss function.
 For using other loss, removing line 179 and return in line 182:
-`#--------------------------------------------------`
+```
+from lossT import sparse_categorical_crossentropy
 
-`from lossT import sparse_categorical_crossentropy`
-
-``
-`def loss(labels, logits):`
-
-`    return sparse_categorical_crossentropy(labels, logits, from_logits=True)`
-
+def loss(labels, logits):
+    return sparse_categorical_crossentropy(labels, logits, from_logits=True)
+```
     
 
