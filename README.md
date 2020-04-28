@@ -8,9 +8,9 @@ This shows an example of how to use a simple LSTM based lagnuage model to learn 
 # LSTM_LM_4s.py 
 
 This file contains all settings, data preprocessing, loss function, and the model itself. The program is tested under tensorflow/1.10.1 with keras beckend. Simpy implement this file by
-
-`python3 LSTM_4s.py`
-
+```
+python3 LSTM_4s.py
+```
 in the terminal. The program will save a file with prediction and corresponding training checkpoints of last few epochs.
 
 # lossT.py
